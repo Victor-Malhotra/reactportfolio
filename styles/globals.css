@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+    position: fixed;
+    top: 85px;
+    left: 0;
+    bottom: 0;
+    height: 87%;
+    width: 100%;
+    border: 0;
+    z-index: -10;
+  }
+
+  body {
+    background-color: #ece8e8;
+  }
