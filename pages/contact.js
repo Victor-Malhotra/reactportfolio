@@ -1,10 +1,10 @@
 export default function contact() {
   return (
-    <div style={{margin: "auto",padding: "auto"}}>
+    <div className="content-center">
 
-      <div className="py-10 lg:py-16 px-4 max-w-screen-sm">
-      <form action="https://formsubmit.co/e37bce064f7e1870a53a7dca208f2560 " method="POST" enctype="multipart/form-data" className="space-y-8">
-                        <div className="form-row">
+          <div className="py-10 lg:py-16 px-4 max-w-screen-sm content-center">
+      <form action="https://formsubmit.co/e37bce064f7e1870a53a7dca208f2560 " method="POST" enctype="multipart/form-data" className="space-y-8 content-center">
+                  <div className="form-row content-center">
                             <div className="form-group col-md-6">
                                 <input type="text" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" id="name" name="name" placeholder="Full Name *" required/>
             </div>
