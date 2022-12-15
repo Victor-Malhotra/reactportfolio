@@ -18,7 +18,8 @@ export default function Home() {
     <div>
       <div className='relative flex items-center' >
         <CarouselComp />
-        </div>
+      </div>
+
     </div>
   )
 }

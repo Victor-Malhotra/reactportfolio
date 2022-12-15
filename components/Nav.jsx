@@ -6,7 +6,7 @@ import { Navbar } from "flowbite-react";
 
 export default function Nav() {
     return (
-<Navbar fluid={true} rounded={true} className="shadow-xl">
+<Navbar fluid={true} rounded={true} className="shadow-xl sticky-top">
   <Navbar.Brand href="/">
     <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
       Portfolio

@@ -1,8 +1,10 @@
+const ScreenSizeDetector=require('screen-size-detector');
+import {useEffect, useState} from 'react';
+
 export default function contact() {
   return (
-    <div className="content-center">
-
-          <div className="py-10 lg:py-16 px-4 max-w-screen-sm content-center">
+      <div className="flex flex-col align-items-center justify-center sm:flex-row align-items-center justify-center">
+          <div className="py-10 max-w-screen-sm content-center w-full lg:  py-10 px-4 max-w-screen-sm content-center" >
       <form action="https://formsubmit.co/e37bce064f7e1870a53a7dca208f2560 " method="POST" enctype="multipart/form-data" className="space-y-8 content-center">
                   <div className="form-row content-center">
                             <div className="form-group col-md-6">
@@ -53,8 +55,27 @@ export default function contact() {
 
 
 
-          </form>
-      </div>
-      </div>
+        </form>
+        </div>
+         <div className="py-10 max-w-screen-sm content-center w-full lg:  py-10 px-4 max-w-screen-sm content-center">
+            <h5>Call Me</h5>
+                    <p><a href="tel:+16027840144 "><i class="fa fa-phone-alt "></i>+1(602) 784-0144</a></p>
+                    <h5>Email / Site</h5>
+                    <p>
+                        <a href="mailto:victorrmalhotra@gmail.com "><i class="fa fa-envelope "></i> victorrmalhotra@gmail.com</a><br/>
+                        <a href="https://victormal001.github.io/My-Portfolio/ "><i class="fa fa-globe "></i>https://victormal001.github.io/My-Portfolio/</a>
+                    </p>
+                    <h5>Working Hours</h5>
+                    <p>
+                        Mon - Fri : 7:10pm - 9pm (USA-Mountain Standard Time)<br/> Sat - Sun : 9am - 8pm (USA-Mountain Standard Time)
+                    </p>
+                    <h5>Quick Who am I</h5>
+                    <p> My Name is Victor and I am coder I can do back-end and front-end. . I am currently looking for a coding job. I am 16 and have no college degree but I got to West-MEC NEC</p>
+                    <br/>
+                    <br/>
+
+                    <hr/>
+        </div>
+    </div>
   )
 }
