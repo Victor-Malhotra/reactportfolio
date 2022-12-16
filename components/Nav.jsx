@@ -6,7 +6,7 @@ import { Navbar } from "flowbite-react";
 
 export default function Nav() {
     return (
-<Navbar fluid={true} rounded={true} className="shadow-xl sticky-top">
+<Navbar fluid={true} rounded={true} className="shadow-xl bg-zinc-600 sticky-top">
   <Navbar.Brand href="/">
     <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
       Portfolio
@@ -32,7 +32,7 @@ export default function Nav() {
     <Navbar.Link href="/contact">
       CONTACT
     </Navbar.Link>
-  </Navbar.Collapse>
+        </Navbar.Collapse>
 </Navbar>
     )
 }

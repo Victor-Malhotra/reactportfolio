@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className='relative flex items-center' >
+      <div  >
         <CarouselComp />
       </div>
 
