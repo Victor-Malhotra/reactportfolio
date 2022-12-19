@@ -16,7 +16,6 @@ export default function Nav() {
   <Navbar.Collapse>
     <Navbar.Link
       href="/"
-      active={true}
     >
       HOME
     </Navbar.Link>
